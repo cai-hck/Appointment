@@ -1,0 +1,257 @@
+
+.reschedule-form {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.chat-cont-right {
+    position: unset;
+    right: unset;
+    top: unset;
+    opacity: 1;
+    visibility: unset;
+    margin:auto;
+    position: relative;
+}
+
+.chat-cont-left .chat-users-list div.media {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 15px;
+    transition: all 0.2s ease 0s;
+}
+
+.chat-body {
+    min-height:500px;
+    position:relative;
+}
+
+.video-call-wrapper {
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    z-index:100;
+}
+#my-video video
+{
+    width: 200px;
+    border: 5px solid lightgreen;
+    border-radius: 10px;
+}
+
+#user-video h3{
+    text-align: center;
+    margin-top: 20% !important;
+}
+.user-video {
+    background: black;
+}
+.user-video video {
+    width: auto;
+    max-width: 100%;
+    height: -webkit-fill-available;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    /* some CSS here */
+    header nav.navbar.navbar-expand-lg.header-nav {
+        height: 140px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    
+    .reschedule-form {
+        display: block;
+    }
+    .reschedule-form label, .reschedule-form input, .reschedule-form button {
+        width:100% !important;
+        margin-bottom:10px;
+    }
+
+    #my-video video
+    {
+        width: 100px;
+        border: 5px solid lightgreen;
+        border-radius: 10px;
+    }
+
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+    /* some CSS here */
+    header nav.navbar.navbar-expand-lg.header-nav {
+        height: 140px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    .reschedule-form {
+        display: block;
+    }
+    .reschedule-form label, .reschedule-form input, .reschedule-form button {
+        width:100% !important;
+        margin-bottom:10px;
+    }
+    #my-video video
+    {
+        width: 100px;
+        border: 5px solid lightgreen;
+        border-radius: 10px;
+    }
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+    /* some CSS here */
+    header nav.navbar.navbar-expand-lg.header-nav {
+        height: 140px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    .reschedule-form {
+        display: block;
+    }
+    .reschedule-form label, .reschedule-form input, .reschedule-form button {
+        width:100% !important;
+        margin-bottom:10px;
+    }
+    #my-video video
+    {
+        width: 100px;
+        border: 5px solid lightgreen;
+        border-radius: 10px;
+    }
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+    /* some CSS here */
+    header nav.navbar.navbar-expand-lg.header-nav {
+        height: 140px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    .reschedule-form {
+        display: block;
+    }
+    .reschedule-form label, .reschedule-form input, .reschedule-form button {
+        width:100% !important;
+        margin-bottom:10px;
+    }
+    #my-video video
+    {
+        width: 100px;
+        border: 5px solid lightgreen;
+        border-radius: 10px;
+    }
+}
+
+/* #### iPhone 5 Portrait or Landscape #### */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+    /* some CSS here */
+    header nav.navbar.navbar-expand-lg.header-nav {
+        height: 140px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    .reschedule-form {
+        display: block;
+    }
+    .reschedule-form label, .reschedule-form input, .reschedule-form button {
+        width:100% !important;
+        margin-bottom:10px;
+    }
+    #my-video video
+    {
+        width: 100px;
+        border: 5px solid lightgreen;
+        border-radius: 10px;
+    }
+}
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
+    /* some CSS here */
+    header nav.navbar.navbar-expand-lg.header-nav {
+        height: 140px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    .reschedule-form {
+        display: block;
+    }
+    .reschedule-form label, .reschedule-form input, .reschedule-form button {
+        width:100% !important;
+        margin-bottom:10px;
+    }
+    #my-video video
+    {
+        width: 100px;
+        border: 5px solid lightgreen;
+        border-radius: 10px;
+    }
+
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    /* some CSS here */
+    .mobile-change-lang { display: none;}
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+    /* some CSS here */
+    .mobile-change-lang { display: none;}
+
+}
+
+
+
+
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+ .StripeElement {
+    box-sizing: border-box;
+    height: 50px;
+  
+    padding: 15px 12px;
+  
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: white;
+  
+    /* box-shadow: 0 1px 3px 0 #e6ebf1; */
+    /* box-shadow: 1px 1px 1px 1px black; */
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+  }
+  
+  .StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  
+  .StripeElement--invalid {
+    border-color: #fa755a;
+  }
+  
+  .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+  }
+  #card-errors {
+      color: #fa755a;
+  }
